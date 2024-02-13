@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+html{
+    background: url("laloves/valentines.jpg");
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    overflow: hidden;
+}
+h2{
+    color: #D63484;
+    font-size: 60px;
+    display: block;
+    position: absolute;
+    margin-top: 250px;
+}
+.app{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.buttonGroup{
+    margin-top: 150px;
+}
+button{
+    position: absolute;  
+    display: flex;  
+    cursor: pointer;
+    margin: 0 50px;
+    margin-top: 200px;
+    padding: 10px 30px;
+    background-color: #FFDFDF;
+    border: none;
+    border-radius: 15px;
+    color: #D63484;
+    font-weight: bold;
+}
+.button--no{
+    right: 50%;
+    position: relative;
+}
+
+#yes{color: #D63484;
+    left: 50%;    
+}
+
+h3{
+    color: #D63484;
+    font-size: 40px;
+    padding-top: 7%;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: #B31312;
+    font-weight: bold;
+    margin-top: 10px;
+}
+span{
+    color: #f49ac2;
+}
